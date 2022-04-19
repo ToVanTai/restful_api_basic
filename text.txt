@@ -1,0 +1,12 @@
+http://localhost/learn_api_1/api/users.php?page=2&limit=4
+http://localhost/learn_api_1/api/users.php
+http://localhost/learn_api_1/api/users.php?id=1
+
+http://localhost/learn_api_1/index.html
+
+http://localhost/learn_api_1/api/users/?id=5
+http://localhost/learn_api_1/api/users/1
+$sql = "INSERT INTO users (name,phoneNumber,birthday) VALUES ('to van a', '012345', '2022-04-05');";
+SELECT * FROM users WHERE id=1;
+DELETE  FROM users WHERE id=1;
+UPDATE users SET name='Tai Van To', phoneNumber='014324',birthday='2022-04-05' WHERE id=2;

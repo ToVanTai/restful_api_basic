@@ -1,0 +1,6 @@
+RewriteEngine On
+
+RewriteRule "index.html" "index.php"
+RewriteRule "^api/users/([0-9]+)$" "api/users.php?id=$1"
+RewriteRule "api/users/" "api/users.php"
+

@@ -1,0 +1,1 @@
+export const API_BASE = "http://localhost/learn_api_1/api/";
